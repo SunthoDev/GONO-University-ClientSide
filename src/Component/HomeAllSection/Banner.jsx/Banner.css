@@ -1,0 +1,105 @@
+
+
+
+.BannerParent{}
+
+.BannerParent .Banner{}
+
+.BannerParent .Banner .Left h1 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: sans-serif;
+    line-height: 46px;
+    color: black;
+    line-height: 38px;
+}
+.BannerParent .Banner .Left h3 {
+    color: black;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 11px;
+}
+.BannerParent .Banner .Left .Support {
+    padding: 24px 0;
+}
+.BannerParent .Banner .Left .Support h4 {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 4px;
+}
+.BannerParent .Banner .Left h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.BannerParent .Banner .Left h5 span{
+        font-size: 44px;
+        font-weight: 700;
+    
+}
+.BannerParent .Banner .Left h6 {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 2px;
+}
+.BannerParent .Banner .Left button {
+    color: white;
+    border: 1px solid #673EE6;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-top: 24px;
+    background-color: #673EE6;
+    transition: .4s;
+}
+.BannerParent .Banner .Left button:hover{
+    background-color: transparent;
+    border: 1px solid #6441d9;
+    color: #6441d9;
+    
+}
+.BannerParent .Banner .Left h2 {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+
+.BannerParent .Banner .CountDownParent .Count {
+    border: 1px solid #6441d9;
+    padding: 10px 24px;
+    margin-left: 8px;
+    color: #6441d9;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+.BannerParent .Banner .Right{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

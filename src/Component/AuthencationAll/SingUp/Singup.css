@@ -1,0 +1,44 @@
+
+.SingUpParent {
+    background-color: #5B5957;
+    color: #444444;
+    background-image: url("../../../assets/AllImage/bg-texture-2.png"), radial-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+
+}
+.SingUpParent .SingUp {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.SingUpParent .SingUp .MaineCard{
+
+}
+.SingUpParent .SingUp .MaineCard h2{
+        text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: system-ui;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 12px;
+
+}
+
+
+.SingUpParent .SingUp .MaineCard .FromData input {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.SingUpParent .SingUp .MaineCard .FromData select {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.SingUpParent .SingUp .MaineCard .FromData .Register {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+import { useContext } from "react"
+import { useQuery } from "@tanstack/react-query"
+import { AuthContext } from "../Component/AuthencationAll/AuthProvider/AuthProvider"
+
+
+let useRole = () => {
+
+    let { user, loading } = useContext(AuthContext)
+
+    // let token=localStorage.getItem("accessToken")
+
+    // console.log(user)
+
+    const { refetch, data: roles = {} } = useQuery({
+
+        queryKey: ["userRoleCheck", user?.email],
+
+        enabled: !loading && !!user?.email,
+
+        queryFn: async () => {
+            const response = await fetch(` https://test.educationboardresullt.com/userRoleCheck/${user?.email}`);
+            // console.log(response)
+            let data = await response.json();
+            return data
+        }
+    })
+
+    return [roles, refetch]
+}
+
+export default useRole
