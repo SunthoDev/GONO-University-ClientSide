@@ -74,11 +74,11 @@ const StudentInformation = () => {
                                             <td>{StudentInfoAll?.Name}</td>
                                         </tr>
                                         <tr>
-                                            <td>Fathers Name</td>
+                                            <td>Father's Name</td>
                                             <td>{StudentInfoAll?.Fathers_Name}</td>
                                         </tr>
                                         <tr>
-                                            <td>Mother Name</td>
+                                            <td>Mother's Name</td>
                                             <td>{StudentInfoAll?.Mother_Name}</td>
                                         </tr>
                                         <tr>
@@ -160,35 +160,35 @@ const StudentInformation = () => {
                                         </tr>
 
                                         <tr>
-                                            <td>1st Year</td>
+                                            <td>1st semester Payment</td>
                                             <td>{StudentInfoAll?.oneTh_Year}</td>
                                         </tr>
                                         <tr>
-                                            <td>2nd Year</td>
+                                            <td>2nd semester Payment</td>
                                             <td>{StudentInfoAll?.twoTh_Year}</td>
                                         </tr>
                                         <tr>
-                                            <td>3rd Year</td>
+                                            <td>3rd semester Payment</td>
                                             <td>{StudentInfoAll?.threeTh_Year}</td>
                                         </tr>
                                         <tr>
-                                            <td>4th Year</td>
+                                            <td>4th semester Payment</td>
                                             <td>{StudentInfoAll?.fourTh_Year}</td>
                                         </tr>
                                         <tr>
-                                            <td>5th Year</td>
+                                            <td>5th semester Payment</td>
                                             <td>{StudentInfoAll?.fiveTh_Year}</td>
                                         </tr>
                                         <tr>
-                                            <td>6th Year</td>
+                                            <td>6th semester Payment</td>
                                             <td>{StudentInfoAll?.sixTh_Year}</td>
                                         </tr>
                                         <tr>
-                                            <td>7th Year</td>
+                                            <td>7th semester Payment</td>
                                             <td>{StudentInfoAll?.sevenTh_Year}</td>
                                         </tr>
                                         <tr>
-                                            <td>8th Year</td>
+                                            <td>8th semester Payment</td>
                                             <td>{StudentInfoAll?.eightTh_Year}</td>
                                         </tr>
 

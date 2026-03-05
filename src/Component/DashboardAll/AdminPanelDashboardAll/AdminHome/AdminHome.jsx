@@ -13,7 +13,7 @@ const AdminHome = () => {
     const { data: adminAllUsers = [] } = useQuery({
         queryKey: ["users"],
         queryFn: async () => {
-            const res = await fetch(" https://test.educationboardresullt.com/users");
+            const res = await fetch(" https://server.gonouniversityverification.com/users");
             return res.json();
         },
     });
@@ -24,7 +24,7 @@ const AdminHome = () => {
     const { data: UserEnterAllData = [], refetch } = useQuery({
         queryKey: ["DataEntryALLData"],
         queryFn: async () => {
-            const res = await fetch(" https://test.educationboardresullt.com/DataEntryALLData");
+            const res = await fetch(" https://server.gonouniversityverification.com/DataEntryALLData");
             return res.json();
         },
     });

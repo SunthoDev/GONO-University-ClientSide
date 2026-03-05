@@ -13,7 +13,7 @@ const SeeAllStudentInformation = () => {
     const { data: AllStudentInformation = [], refetch } = useQuery({
         queryKey: ["StudentALLData"],
         queryFn: async () => {
-            const res = await fetch(" https://test.educationboardresullt.com/StudentALLData");
+            const res = await fetch(" https://server.gonouniversityverification.com/StudentALLData");
             return res.json();
         },
     });
@@ -62,7 +62,7 @@ const SeeAllStudentInformation = () => {
                                             }).then((result) => {
                                                 if (result.isConfirmed) {
 
-                                                    fetch(` https://test.educationboardresullt.com/AdminDeleteStudentDelete/${studentInfo?._id}`, {
+                                                    fetch(` https://server.gonouniversityverification.com/AdminDeleteStudentDelete/${studentInfo?._id}`, {
                                                         method: "DELETE",
                                                     })
                                                         .then(res => res.json())

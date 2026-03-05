@@ -48,7 +48,7 @@ const AddStudentInformation = () => {
 
           // save user Database 
           // ==========================
-          fetch("https://test.educationboardresullt.com/AdminAddStudentInformation", {
+          fetch("https://server.gonouniversityverification.com/AdminAddStudentInformation", {
             method: "POST",
             headers: {
               "content-type": "application/json"

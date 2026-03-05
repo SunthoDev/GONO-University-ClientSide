@@ -34,7 +34,7 @@ let route = createBrowserRouter([
             {
                 path: "/StudentInformation/:id",
                 element: <StudentInformation></StudentInformation>,
-                loader: ({ params }) => fetch(`https://test.educationboardresullt.com/SearchStudentData/${params.id}`)
+                loader: ({ params }) => fetch(`https://server.gonouniversityverification.com/SearchStudentData/${params.id}`)
             }
         ]
     },
@@ -86,4 +86,4 @@ export default route;
 // ayta deta hova github remove hoy
 // git push origin main --force
 
-//  https://test.educationboardresullt.commmmmmmmmmmmmmmmm
+//  https://server.gonouniversityverification.commmmmmmmmmmmmmmmm

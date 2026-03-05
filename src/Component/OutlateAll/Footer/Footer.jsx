@@ -99,8 +99,8 @@ const Footer = () => {
 
                         <h4 className="text-[16px] text-[#999999]">
                             Developed By:{" "}
-                            <a href="https://my-portfolio-shipon.web.app/" target="_blank" className="text-blue-500 hover:underline">
-                                Shipon Deb
+                            <a href="#" target="_blank" className="text-blue-500 hover:underline">
+                                gono university it department.
                             </a>
                         </h4>
                     </div>

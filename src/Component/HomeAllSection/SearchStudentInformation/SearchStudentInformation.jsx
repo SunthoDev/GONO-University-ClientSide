@@ -15,7 +15,7 @@ const SearchStudentInformation = () => {
     const { data: AllStudentInformation = [], refetch } = useQuery({
         queryKey: ["StudentALLData"],
         queryFn: async () => {
-            const res = await fetch(" https://test.educationboardresullt.com/StudentALLData");
+            const res = await fetch(" https://server.gonouniversityverification.com/StudentALLData");
             return res.json();
         },
     });
@@ -24,18 +24,19 @@ const SearchStudentInformation = () => {
 
     return (
         <div className='SearchStudentInformationParent bg-white'>
-            
+
             <section className="container w-full h-full border-b pb-12">
+                <marquee className="pyy-2 text-black">This is the only official portal authorized by Gono University for online certificate verification.</marquee>
 
-                <marquee className="pyy-2 text-black">This is the only official website authorized by UAP for online certificate verification.</marquee>
+                <h4 className="mt-2 text-black text-[16px] font-[600]">Verification for: <span className='text-blue-800'>gonouniversity.bd.edu@gmail.com</span></h4>
 
-                <div className="w-full mt-8 p-4 md:p-8 border shadow">
+                <div className="w-full mt-6 p-4 md:p-8 border shadow">
                     <div className="max-w-[650px] mx-auto border">
                         <div className="flex items-center gap-2 bg-gray-100 px-4 py-3 border-b">
-                            <i className="fa-solid fa-check"></i>
+                            <i className="fa fa-check text-black" aria-hidden="true"></i>
                             <p className="text-lg text-black">Certificate Verification</p>
                         </div>
-                        
+
                         <form onSubmit={(event) => {
                             setError("")
                             event.preventDefault()
@@ -85,7 +86,7 @@ const SearchStudentInformation = () => {
                     </div>
                 </div>
             </section>
-
+            
         </div>
     );
 };

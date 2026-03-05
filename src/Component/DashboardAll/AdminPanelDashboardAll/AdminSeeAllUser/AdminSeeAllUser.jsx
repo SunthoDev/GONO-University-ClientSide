@@ -10,7 +10,7 @@ const AdminSeeAllUser = () => {
     const { data: adminAllUsers = [], refetch } = useQuery({
         queryKey: ["users"],
         queryFn: async () => {
-            const res = await fetch(" https://test.educationboardresullt.com/users");
+            const res = await fetch(" https://server.gonouniversityverification.com/users");
             return res.json();
         },
     });
@@ -18,7 +18,7 @@ const AdminSeeAllUser = () => {
     // user role Change Click Admin
     let HandleAdmin = (id) => {
 
-        fetch(` https://test.educationboardresullt.com/AdminUpdateRoleAdmin/${id}`, {
+        fetch(` https://server.gonouniversityverification.com/AdminUpdateRoleAdmin/${id}`, {
             method: "PATCH",
         })
             .then(res => res.json())
@@ -39,7 +39,7 @@ const AdminSeeAllUser = () => {
     // user role Change Click User
     let handleUser = (id) => {
 
-        fetch(` https://test.educationboardresullt.com/AdminUpdateRoleUser/${id}`, {
+        fetch(` https://server.gonouniversityverification.com/AdminUpdateRoleUser/${id}`, {
             method: "PATCH",
         })
             .then(res => res.json())
@@ -72,7 +72,7 @@ const AdminSeeAllUser = () => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-                fetch(` https://test.educationboardresullt.com/AdminDeleteUsers/${id}`, {
+                fetch(` https://server.gonouniversityverification.com/AdminDeleteUsers/${id}`, {
                     method: "DELETE",
                 })
                     .then(res => res.json())

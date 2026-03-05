@@ -57,7 +57,7 @@ const SingUp = () => {
                         // console.log(saveUser)
 
                         // save user DB 
-                        fetch("https://test.educationboardresullt.com/users", {
+                        fetch("https://server.gonouniversityverification.com/users", {
                             method: "POST",
                             headers: {
                                 "content-type": "application/json"
